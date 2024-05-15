@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    user-select: none;
+}
+header {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    border-bottom: 1px solid rgba(198, 198, 198, 1);
+    background-color: rgba(255, 255, 255, 1);
+
+
+}
+
+section {
+    width: 100%;
+    max-width: 500px;
+    margin:auto 0 auto;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+   
+}
+.header-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.logo-img {
+    width: 150px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+
+    
+}
+.user-img {
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.section-user {
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+}
+.section-top {
+    display: flex;
+    margin-left: 20px;
+    gap: 20px;
+}
+h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.section-top, p {
+    margin-top: 0;
+}
+
+.hero-img {
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer
+}
+footer {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 1);
+    
+
+}
+.footer-icon img {
+    height: 25px;
+    margin: 20px 0 5px 20px;
+    opacity: 1;
+    cursor: pointer
+}
+.footer-icon img:hover {
+    opacity: 0.5;
+}
+.para{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+   
+}
+.para-bold {
+    font-weight: bold;
+    margin-right: 5px;
+}
